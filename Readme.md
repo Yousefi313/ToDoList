@@ -24,6 +24,11 @@
 Drag & Drop:
   * Aufgaben können per Drag & Drop neu angeordnet werden, um die Priorität der Aufgaben individuell zu ändern.
 
+**9. Screenshots:**<br>
+    ![Filter-Alle](https://github.com/Yousefi313/ToDoList/blob/main/Screenshots/Alle.png)<br>
+    ![Filter-Offen](https://github.com/Yousefi313/ToDoList/blob/main/Screenshots/Offen.png)<br>
+    ![Filter-Erledigt](https://github.com/Yousefi313/ToDoList/blob/main/Screenshots/Erledigt.png)<br>
+
 ## Acknowledgments
 
 The sound used in this project was sourced from [Chillpeach](https://www.youtube.com/@Chillpeach). 
