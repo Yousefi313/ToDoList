@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine To-Do-Liste</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      body {
+          /* Add background image */
+          background-image: url('image/Background_Image.png'); /* Replace with your image path */
+
+          /* Make the background cover the entire page */
+          background-size: cover;
+
+          /* Ensure the background stays in place during scrolling */
+          background-attachment: fixed;
+
+          /* Center the background image */
+          background-position: center;
+
+          /* Prevent background repetition */
+          background-repeat: no-repeat;
+
+          /* Add a fallback color in case the image doesn't load */
+          background-color: #f0f0f0;
+
+          /* Set a height so we can see the background */
+          min-height: 100vh;
+      }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Meine To-Do's</h1>
+        
+        <!-- Eingabefeld und Button zum Hinzufügen neuer Aufgaben -->
+        <div class="input-container">
+            <input type="text" id="taskInput" placeholder="Neue Aufgabe hinzufügen...">
+            <button id="addTaskBtn">+ Neu</button>
+        </div>
+
+        <!-- Filtermöglichkeiten (Alle, Offen, Erledigt) -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-filter="all">Alle</button>
+            <button class="filter-btn" data-filter="open">Offen</button>
+            <button class="filter-btn" data-filter="completed">Erledigt</button>
+            <button id="playMusic">Play Music</button>
+            <button id="pauseMusic">Pause Music</button>
+        </div>
+
+        <!-- Liste der Aufgaben -->
+        <ul id="taskList"></ul>
+    </div>
+
+    <audio id="backgroundMusic" loop>
+      <source src="audio/Chillpeach - Cappuccino.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
