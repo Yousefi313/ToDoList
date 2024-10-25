@@ -26,7 +26,7 @@ Drag & Drop:
 
 ## Acknowledgments
 
-The sound used in this project was sourced from [Chillpeach](www.youtube.com/@Chillpeach). 
+The sound used in this project was sourced from [Chillpeach](https://www.youtube.com/@Chillpeach). 
 
 ```java
 String message = "Thank you for providing copyright-free music!";
