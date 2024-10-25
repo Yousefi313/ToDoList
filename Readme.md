@@ -1,4 +1,4 @@
-****Kurze Beschreibung der umgesetzten Funktionen der To-Do App:****
+****Kurze Beschreibung der umgesetzten Funktionen der To-Do App:****<br>
 **1. Aufgaben hinzufügen:**
   * Der Benutzer kann im Eingabefeld eine neue Aufgabe eingeben und durch Klicken auf den Button "Neu" zur Liste hinzufügen. Leere Eingaben werden verhindert.
 
@@ -26,7 +26,7 @@ Drag & Drop:
 
 ## Acknowledgments
 
-The sound used in this project was sourced from [YouTube Channel Name](www.youtube.com/@Chillpeach). 
+The sound used in this project was sourced from [Chillpeach](www.youtube.com/@Chillpeach). 
 
 ```java
 String message = "Thank you for providing copyright-free music!";
