@@ -1,12 +1,13 @@
 /* Apply background image and style */
 body {
-  background-image: url('image/Background_Image.png'); /* Assuming the image is in the same directory */
+  background-image: url('image/Background_Image.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Arial', sans-serif;
-  color: #d9d9d9; /* Light grey text */
+  color: #d9d9d9;
+  background-color: #f0f0f0;
   margin: 0;
   padding: 0;
   height: 100vh;
@@ -20,11 +21,11 @@ body::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.7); /* Dark overlay with slight transparency */
+  background: rgba(0, 0, 0, 0.7);
   z-index: -1;
 }
 
-/* Main container for content */
+
 .container {
   width: 40%;
   margin: 0 auto;
@@ -32,15 +33,15 @@ body::before {
   text-align: center;
 }
 
-/* Header styles */
+
 h1 {
   color: #f1f1f1;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Subtle shadow */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
-/* To-do input and button */
+
 input[type="text"] {
   padding: 0.5rem;
   font-size: 1rem;
@@ -55,7 +56,7 @@ input[type="text"] {
 button {
   padding: 0.5rem 1rem;
   font-size: 1rem;
-  background-color: #5865f2; /* Muted blue */
+  background-color: #6b6b6f;
   border: none;
   color: #ffffff;
   cursor: pointer;
@@ -123,8 +124,7 @@ input[type="checkbox"] {
   }
 }
 
-/* Styles for the filter container */
 .filter-container {
-  margin-top: 1.5rem; /* Fügt 1.5rem Abstand oberhalb des Containers hinzu */
+  margin-top: 1.5rem;/
   text-align: center;
 }
