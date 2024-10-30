@@ -171,3 +171,17 @@ document.getElementById('pauseMusic').addEventListener('click', function() {
   backgroundMusic.pause();
 });
 
+// Function to update the clock
+function updateClock() {
+    const now = new Date();
+    const timeString = now.toLocaleTimeString();
+    document.getElementById("clock").innerHTML = timeString;
+}
+
+// Call updateClock every second
+setInterval(updateClock, 1000);
+
+// Initial call to display the clock immediately on page load
+updateClock();
+
+
